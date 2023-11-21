@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Borel & family= Krona+One & family= Montserrat:wght@400;600 & family= Source+Serif+4:opsz@ 8..60 & family= Tinos:ital,wght@1,400;1,700 & family= Zilla+Slab & display=swap');
+
+:root {
+    --cor-primaria:#18393a;
+    --cor-secundaria: #f6faf8;
+    --cor-terciaria: #09e6ee;
+    --cor-hover: #18393a;
+    --cor-rodape: #feffff;
+
+    --fonte-primaria: 'Zilla Slab', sans-serif;
+    --fonte-secundaria: 'Tinos', sans-serif;
+} 
+
+*{
+    margin: 0%;
+    padding: 0%;    
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.apresentacao_imagem1{
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 5%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link{
+    font-family: var(--fonte-secundaria);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 5% 3% 2% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: var(--fonte-primaria);
+}
+
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+
+.apresentacao_conteudo_paragrafo{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao_imagem{
+    border-radius: 20px;
+}
+
+.rodape{
+    padding: 5px;
+    color: var(--cor-rodape);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao_conteudo_paragrafo_historia{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao_conteudo_paragrafo_historia1{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    padding: 2% 0% 0% 5%;
+}
+
+.apresentacao_historia_imagem {
+    border-radius: 20px;
+}
